@@ -15,7 +15,7 @@ for (let i = 0; i < arr.length; i++) {
   el.style.backgroundImage = 'url(../image/level1.png)';
   el.style.width = '24px';
   el.style.height = '24px';
-  new mapboxgl.Marker(el)
+  new mapboxgl.Marker()
     .setLngLat(arr[i])
     .addTo(map);
 }
